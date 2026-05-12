@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto 4 - Tabla de Desglose</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th colspan="6" class="header-tabla">DESGLOSE DE NOMBRES</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="celda-datos">
+                D<br>A<br>T<br>O<br>S
+            </td>
+            <td>L</td>
+            <td>I</td>
+            <td>N</td>
+            <td>D</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td colspan="5">TOTAL: 5 LETRAS</td>
+        </tr>
+    </table>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .header-tabla {
+            font-weight: bold;
+        }
+        .celda-datos {
+            font-weight: bold;
+            width: 30px; 
+        }
+    </style>
+</body>
+</html>
